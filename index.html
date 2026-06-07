@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="header.css">
+  <title>Cardápio</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <i class="fa-solid fa-burger" id="nav_logo">food</i>
+
+      <ul id="nav_list">
+        <li class="nav-item active">
+          <a href="#home">Início</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#menu">Cardápio</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#testimonials">Avaliações</a>
+        </li>
+      </ul>
+
+      <button class="btn-default">
+        Peça Aqui!
+      </button>
+
+      <button id="mobile_btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <div id="mobile_menu">
+      <ul id="mobile_nav_list">
+        <li class="nav-item">
+          <a href="#home">Início</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#menu">Cardápio</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#testimonials">Avaliações</a>
+        </li>
+      </ul>
+
+      <button class="btn-default">
+        Peça Aqui!
+      </button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section id="home">
+      <div class="shape"></div>
+      <div id="cta">
+        <h1 class="title">
+          O sabor que vai até
+          <span>você</span>
+        </h1>
+
+        <p class="description">
+          Aqui, cada prato é preparado com carinho, ingredientes frescos e muito sabor — e o melhor: entregue onde você
+          estiver! Do almoço rápido ao jantar especial, levamos a experiência do nosso restaurante direto até sua casa.
+          Peça agora e sinta o verdadeiro sabor sem sair do lugar!
+        </p>
+
+        <div id="cta_buttons">
+          <a href="#" class="btn-default">Ver cardápio</a>
+
+          <a href="tel: +55555555" id="phone_button">
+            <button class="btn-default">
+              <i class="fa-solid fa-phone"></i>
+            </button>
+            (81) 99411-2432
+          </a>
+        </div>
+
+        <div class="social-media-buttons">
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <div id="banner">
+        <img src=".//img/hero.png" alt="banner">
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2 class="section-title">Cardápio</h2>
+      <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+      <div id="dishes">
+        <!-- Prato 1 -->
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="./img/dish.png" class="dish-image" alt="Poke bowl">
+          <h3 class="dish-title">Poke bowl</h3>
+          <span class="dish-description">
+            Descubra uma explosão de sabores com nossos poke bowls artesanais, preparados com ingredientes frescos, como
+            camarões suculentos, legumes crocantes e temperos especiais.
+          </span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$35,00</h4>
+            <button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+
+        <!-- Prato 2 -->
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="./img/dish2.png" class="dish-image" alt="Sanduíche prensado">
+          <h3 class="dish-title">Sanduíche prensado</h3>
+          <span class="dish-description">
+            Nosso sanduíche prensado é a combinação perfeita de pão crocante e recheios irresistíveis. Preparado na
+            hora, com ingredientes selecionados e prensado até o ponto ideal. Ideal para qualquer momento do dia!
+          </span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$20,00</h4>
+            <button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+
+        <!-- Prato 3 -->
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="./img/dish3.png" class="dish-image" alt="Smoothie bowl verde">
+          <h3 class="dish-title">Smoothie bowl verde</h3>
+          <span class="dish-description">
+            Feito com frutas frescas e folhas verdes, nosso smoothie bowl é uma explosão de nutrientes e sabor. Com
+            morangos, kiwi, sementes e coco, ele é perfeito para começar o dia com leveza e vitalidade.
+          </span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$40,00</h4>
+            <button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+
+        <!-- Prato 4-->
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="./img/dish4.png" class="dish-image" alt="Yakisoba com camarões">
+          <h3 class="dish-title">Yakisoba com camarões</h3>
+          <span class="dish-description">
+            Nosso yakisoba é preparado com macarrão no ponto certo, legumes salteados e camarões suculentos, tudo
+            envolvido em um molho especial. Uma explosão de sabor asiático!
+          </span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$25,00</h4>
+            <button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+
+        <!-- Prato 5-->
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="./img/ChatGPT Image 9_06_2025, 22_17_47.png" class="dish-image" alt="Pizza de calabresa">
+          <h3 class="dish-title">Pizza de calabresa</h3>
+          <span class="dish-description">
+            Delicie-se com nossa autêntica pizza de calabresa, preparada com massa fina e crocante, molho de tomate
+            caseiro, queijo derretido na medida certa e generosas fatias de calabresa levemente picante. Finalizada com
+            um toque de ervas finas, é a combinação perfeita de sabor e qualidade. Ideal para qualquer momento!
+          </span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$30,00</h4>
+            <button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+
+        <!-- Prato 6-->
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="./img/ChatGPT Image 9_06_2025, 22_26_32.png" class="dish-image" alt="Sushi artesanal">
+          <h3 class="dish-title">Sushi artesanal</h3>
+          <span class="dish-description">
+            Experimente a leveza e o sabor do nosso sushi artesanal, feito com arroz temperado na medida certa, cortes
+            precisos de peixes frescos e ingredientes selecionados. Combinando tradição e apresentação impecável, é a
+            escolha ideal para quem busca uma refeição refinada, equilibrada e cheia de frescor.
+          </span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$50,00</h4>
+            <button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <img src="./img/chef.png" id="testimonial_chef" alt="">
+      <div id="testimonials_content">
+        <h2 class="section-title">Depoimentos</h2>
+        <h3 class="section-subtitle">O que os clientes falam sobre nós!</h3>
+        <div id="feedbacks">
+          <div class="feedback">
+            <img src="./img/avatar.png" class="feedback-avatar" alt="">
+            <div class="feedback-content">
+              <p>Juliana Alves
+                <span>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>"Ótimo restaurante, comida de qualidade, ambiente muito agradável e excelente atendimento! Nota 10".
+              </p>
+            </div>
+          </div>
+
+          <div class="feedback">
+            <img src="./img/retrato-de-um-homem-sorridente-feliz_23-2149022620.avif" class="feedback-avatar" alt="man">
+            <div class="feedback-content">
+              <p>Pedro Neto
+                <span>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>"O melhor restaurante da região, indico muito para familiares e amigos".</p>
+            </div>
+          </div>
+
+          <div class="feedback">
+            <img src="./img/1852304-retrato-de-mulher-sorrindo-foto.jpg" class="feedback-avatar" alt="girl">
+            <div class="feedback-content">
+              <p>Marília Silva
+                <span>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>"Restaurante incrível, igual ao responsável que fez essa Lading Page!".</p>
+            </div>
+          </div>
+
+          <div class="feedback">
+            <img src="./img/homem-bonito-sorrindo-retrato-de-rosto-feliz-close-up_5387lfg.avif" class="feedback-avatar" alt="man">
+            <div class="feedback-content">
+              <p>Luan Carlos
+                <span>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>"Quem fez essa Lading Page está de parabéns, ficou sensacional!".</p>
+            </div>
+          </div>
+
+        </div>
+        <button class="btn-default">Ver mais avaliações!</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="./img/converted_image.png" alt="">
+    <div id="footer_items">
+      <span id="copyright">
+        &copy 2025 Luan Carlos
+      </span>
+      <div class="social-media-buttons">
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
