@@ -50,6 +50,6 @@ Cardápios digitais são cada vez mais utilizados por estabelecimentos, pois:
 
 ## 🖇️ Links
 
-Repositório: 
+Repositório: https://github.com/luancarlos13/Card-pio
 
-Deploy do Projeto: 
+Deploy do Projeto: https://luancarlos13.github.io/Card-pio/
